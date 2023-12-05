@@ -1,5 +1,5 @@
 .nav-bar {
-  background: #181818;
+  background: black;
   width: 60px;
   height: 100%;
   position: absolute;
@@ -14,12 +14,10 @@
     img {
       display: block;
       margin: 8px auto;
-      width: 24px;
-      height: auto;
+      width: 55px;
+      height: 100px;
 
-      &.sub-logo {
-        width: 50px;
-      }
+  
     }
   }
 
@@ -34,7 +32,7 @@
 
     a {
       font-size: 22px;
-      color: #4d4d4e;
+      color: white;
       display: block;
       line-height: 51px;
       height: 51px;
@@ -119,7 +117,7 @@
         display: block;
         font-size: 15px;
         line-height: 16px;
-        color: #4d4d4e;
+        color: #0707ae;
       }
 
       &:hover {
@@ -151,7 +149,7 @@
       width: 100%;
       top: 0;
       left: 0;
-      background: #181818;
+      background: white;
       height: 100%;
       margin: 0;
       z-index: 2;

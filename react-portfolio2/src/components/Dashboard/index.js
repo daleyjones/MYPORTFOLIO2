@@ -9,14 +9,19 @@ const Dashboard = () => {
     const auth = getAuth();
 
     useEffect(() => {
-        onAuthStateChanged(auth, (user) => {
-            if(user) {
+        const unsubscribe = onAuthStateChanged(auth, (user) => {
+            if (user) {
                 setUser(user);
             } else {
                 setUser(null);
             }
-        })
-    }, []);
+        });
+
+        return () => {
+            // Unsubscribe when the component unmounts
+            unsubscribe();
+        };
+    }, [auth]);
 
 
     return (
