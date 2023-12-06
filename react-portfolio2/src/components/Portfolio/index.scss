@@ -5,7 +5,18 @@
     position: initial;
     height: 100%;
     overflow: auto;
-  
+    
+    .project-name {
+        font-size: 20px; /* Adjust the font size for project names */
+        color: #da0d0d; /* Adjust the text color for project names */
+        margin-bottom: 8px; /* Adjust the margin as needed */
+      }
+      
+      .project-description {
+        font-size: 14px; /* Adjust the font size for project descriptions */
+        color: #ed0c0c; /* Adjust the text color for project descriptions */
+        margin-bottom: 16px; /* Adjust the margin as needed */
+      }
     h1.page-title {
       margin-left: 100px;
       margin-top: 100px;

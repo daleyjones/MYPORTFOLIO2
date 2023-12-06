@@ -8,6 +8,9 @@
   right: 0;
   overflow: hidden;
 }
+.text-zone {
+  font-size: 100px; /* Adjust the font size as needed */
+}
 
 .cubespinner {
   animation-name: spincube;
@@ -31,6 +34,8 @@
     align-items: center;
     box-shadow: 0 0 20px 0px lightyellow;
   }
+
+  .h1
 
   .face1 {
     transform: translateZ(100px);
