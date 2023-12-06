@@ -37,7 +37,7 @@ const Portfolio = () => {
             name: 'Pacman Javascript Game',
             description: 'I am currently working on a Pacman game using JavaScript. ',
           image: pacImage,
-            html_url: 'https://github.com/daleyjones',
+            html_url: 'https://github.com/daleyjones/pacman-game.git',
           },
       {
         name: 'Git Jobs',
