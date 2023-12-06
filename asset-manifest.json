@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.e59834d7.css",
-    "main.js": "/static/js/main.0900ddaa.js",
-    "static/js/787.5a42e17b.chunk.js": "/static/js/787.5a42e17b.chunk.js",
-    "static/media/log.png": "/static/media/log.eb75f2904127d2faa7d2.png",
-    "static/media/project 2.gif": "/static/media/project 2.f86af8bfe3e400ba32fd.gif",
-    "static/media/quizz.png": "/static/media/quizz.b98d8c45f5307ff04231.png",
-    "static/media/holidayexplorer.png": "/static/media/holidayexplorer.c0fa4214fcb38fb356ad.png",
-    "static/media/pacman game.gif": "/static/media/pacman game.ea7b564722d8ba20137c.gif",
-    "static/media/vecteezy_software-engineer-png-graphic-clipart-design_20962986.png": "/static/media/vecteezy_software-engineer-png-graphic-clipart-design_20962986.1772a7ac1f45f3f1026b.png",
-    "static/media/daley.jpg": "/static/media/daley.77496440c6940b881a47.jpg",
-    "static/media/tech.png": "/static/media/tech.e5e5999ec1aef09fc984.png",
-    "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/LaBelleAurore.woff": "/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
-    "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/CoolveticaRg-Regular.woff": "/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
-    "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
-    "index.html": "/index.html",
-    "main.e59834d7.css.map": "/static/css/main.e59834d7.css.map",
-    "main.0900ddaa.js.map": "/static/js/main.0900ddaa.js.map",
-    "787.5a42e17b.chunk.js.map": "/static/js/787.5a42e17b.chunk.js.map"
+    "main.css": "/MYPORTFOLIO2/static/css/main.0d2f5501.css",
+    "main.js": "/MYPORTFOLIO2/static/js/main.b789ef10.js",
+    "static/js/787.5a42e17b.chunk.js": "/MYPORTFOLIO2/static/js/787.5a42e17b.chunk.js",
+    "static/media/log.png": "/MYPORTFOLIO2/static/media/log.eb75f2904127d2faa7d2.png",
+    "static/media/project 2.gif": "/MYPORTFOLIO2/static/media/project 2.f86af8bfe3e400ba32fd.gif",
+    "static/media/quizz.png": "/MYPORTFOLIO2/static/media/quizz.b98d8c45f5307ff04231.png",
+    "static/media/holidayexplorer.png": "/MYPORTFOLIO2/static/media/holidayexplorer.c0fa4214fcb38fb356ad.png",
+    "static/media/pacman game.gif": "/MYPORTFOLIO2/static/media/pacman game.ea7b564722d8ba20137c.gif",
+    "static/media/vecteezy_software-engineer-png-graphic-clipart-design_20962986.png": "/MYPORTFOLIO2/static/media/vecteezy_software-engineer-png-graphic-clipart-design_20962986.1772a7ac1f45f3f1026b.png",
+    "static/media/daley.jpg": "/MYPORTFOLIO2/static/media/daley.77496440c6940b881a47.jpg",
+    "static/media/tech.png": "/MYPORTFOLIO2/static/media/tech.e5e5999ec1aef09fc984.png",
+    "static/media/helvetica-neu.ttf": "/MYPORTFOLIO2/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff": "/MYPORTFOLIO2/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
+    "static/media/LaBelleAurore.woff2": "/MYPORTFOLIO2/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff": "/MYPORTFOLIO2/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
+    "static/media/CoolveticaRg-Regular.woff2": "/MYPORTFOLIO2/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/MYPORTFOLIO2/index.html",
+    "main.0d2f5501.css.map": "/MYPORTFOLIO2/static/css/main.0d2f5501.css.map",
+    "main.b789ef10.js.map": "/MYPORTFOLIO2/static/js/main.b789ef10.js.map",
+    "787.5a42e17b.chunk.js.map": "/MYPORTFOLIO2/static/js/787.5a42e17b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e59834d7.css",
-    "static/js/main.0900ddaa.js"
+    "static/css/main.0d2f5501.css",
+    "static/js/main.b789ef10.js"
   ]
 }
