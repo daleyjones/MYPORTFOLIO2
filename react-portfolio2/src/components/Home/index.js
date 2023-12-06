@@ -1,8 +1,10 @@
+// components/Home.js
+
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
-import LogoImage from '../../assets/images/vecteezy_software-engineer-png-graphic-clipart-design_20962986.png';  // Adjust the path accordingly
+import LogoImage from '../../assets/images/vecteezy_software-engineer-png-graphic-clipart-design_20962986.png';
 import './index.scss';
 
 const Home = () => {
@@ -33,7 +35,9 @@ const Home = () => {
             <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={22} />
           </h1>
           <h2>| Junior Full Stack Developer |</h2>
-          <Link to="/contact" className="flat-button">
+          
+          {/* Add data-testid to the Link component */}
+          <Link to="/contact" className="flat-button" data-testid="contact-link">
             CONTACT ME
           </Link>
         </div>
