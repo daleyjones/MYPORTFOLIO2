@@ -1,6 +1,6 @@
 import './index.scss'
 import { useState } from 'react'
-import LogoS from '../../assets/images/Daley Jones (2).svg'
+import LogoS from '../../assets/images/log.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -8,6 +8,7 @@ import {
   faGithub,
   faYoutube,
   faSkype,
+  faTwitter,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
@@ -72,7 +73,7 @@ const Sidebar = () => {
       <ul>
         <li>
           <a
-            href="https://www.linkedin.com/in/slobodan-gaji%C4%87-006bb8b8/"
+           href="https://www.linkedin.com/in/daley-jones-130157161/"
             target="_blank"
             rel="noreferrer"
           >
@@ -98,7 +99,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw"
+            href="https://www.youtube.com"
             rel="noreferrer"
             target="_blank"
           >
@@ -110,9 +111,9 @@ const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
+          <a href="https://twitter.com/0121Daley" rel="noreferrer" target="_blank">
             <FontAwesomeIcon
-              icon={faSkype}
+              icon={faTwitter}
               color="#FFFFFF"
               className="anchor-icon"
             />
