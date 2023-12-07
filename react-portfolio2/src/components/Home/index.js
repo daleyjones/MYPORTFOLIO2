@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
-import LogoImage from '../../assets/images/vecteezy_software-engineer-png-graphic-clipart-design_20962986.png';  // Adjust the path accordingly
+import LogoImage from '../../assets/images/vecteezy_software-engineer-png-graphic-clipart-design_20962986.png';
 import './index.scss';
 
 const Home = () => {

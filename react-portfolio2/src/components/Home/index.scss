@@ -84,28 +84,28 @@
     }
   }
 
-/* Add these styles at the end of your existing styles in index.scss */
+  /* Add these styles at the end of your existing styles in index.scss */
 
-@media screen and (max-width: 768px) {
-  .home-page .text-zone {
-    width: 80%; /* Adjust this value as needed */
-  }
+  @media screen and (max-width: 768px) {
+    .home-page .text-zone {
+      width: 80%; /* Adjust this value as needed */
+    }
 
-  .home-page .text-zone .logo-image {
-    width: 60%; /* Adjust this value as needed */
-  }
+    .home-page .text-zone .logo-image {
+      width: 60%; /* Adjust this value as needed */
+    }
 
-  .home-page h1 {
-    font-size: 36px; /* Adjust this value as needed */
-    line-height: 40px; /* Adjust this value as needed */
-  }
+    .home-page h1 {
+      font-size: 36px; /* Adjust this value as needed */
+      line-height: 40px; /* Adjust this value as needed */
+    }
 
-  .home-page h2 {
-    font-size: 14px; /* Adjust this value as needed */
-  }
+    .home-page h2 {
+      font-size: 14px; /* Adjust this value as needed */
+    }
 
-  .home-page .flat-button {
-    font-size: 12px; /* Adjust this value as needed */
+    .home-page .flat-button {
+      font-size: 12px; /* Adjust this value as needed */
+    }
   }
-}
 }
