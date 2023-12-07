@@ -7,6 +7,8 @@ import quizImage from '../../assets/images/quizz.png';
 import gitImage from '../../assets/images/project 2.gif';
 import pacImage from '../../assets/images/pacman game.gif';
 import holidayImage from '../../assets/images/holidayexplorer.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import "./index.scss";
 import { getDocs, collection } from 'firebase/firestore';
@@ -96,7 +98,7 @@ const Portfolio = () => {
       <div className="github-projects">
         {githubProjects.map((project, idx) => (
           <div className="github-project" key={idx} onClick={() => openProjectDetails(project)}>
-            <h2>{project.name}</h2>
+            <h2 className="project-name">{project.name}</h2>
             <p>{project.description}</p>
             <img
               style={{ maxWidth: '100%', maxHeight: '300px', objectFit: 'contain' }}
@@ -104,15 +106,24 @@ const Portfolio = () => {
               src={project.image}
               alt="Project"
             />
-
-            <a href={project.html_url} target="_blank" rel="noopener noreferrer">
-              View on GitHub
+    
+            <a
+              href={project.html_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="github-link"
+            >
+              <button className="github-button">
+                <FontAwesomeIcon icon={faGithub} style={{ marginRight: '8px' }} />
+                View on GitHub
+              </button>
             </a>
           </div>
         ))}
       </div>
     );
-  }
+  };
+  
 
   return (
     <>

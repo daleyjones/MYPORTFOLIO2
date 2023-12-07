@@ -7,14 +7,22 @@
     overflow: auto;
     
     .project-name {
-        font-size: 20px; /* Adjust the font size for project names */
-        color: #da0d0d; /* Adjust the text color for project names */
-        margin-bottom: 8px; /* Adjust the margin as needed */
-      }
-      
+      font-size: 18px;
+      font-weight: bold;
+      color:rgb(14, 14, 14);
+      padding: 10px 20px;
+      background-color: yellow;
+      border-radius: 20px;
+      display: inline-block;
+      margin: 110px;
+      margin-bottom: 8px;
+      position: relative;
+    }
+  
+    
       .project-description {
         font-size: 14px; /* Adjust the font size for project descriptions */
-        color: #ed0c0c; /* Adjust the text color for project descriptions */
+        color: #191818; /* Adjust the text color for project descriptions */
         margin-bottom: 16px; /* Adjust the margin as needed */
       }
     h1.page-title {
@@ -150,4 +158,31 @@
       }
     }
   }
+  .github-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #0366d6; /* GitHub link color */
   
+    svg {
+      margin-right: 5px; /* Adjust the margin as needed */
+    }
+  }
+  
+  /* Add this to your SCSS or CSS file */
+  .github-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: yellow; /* Yellow background */
+    color: #000000; /* Black text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #e6b800; /* Darker yellow on hover */
+    }
+  }
