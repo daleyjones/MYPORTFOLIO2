@@ -10,6 +10,7 @@ import {
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import portfolioImage from '../../assets/images/daley.jpg'; 
 import './index.scss'
 
 const About = () => {
@@ -32,6 +33,9 @@ const About = () => {
               idx={15}
             />
           </h1>
+
+
+
           
 <p>
   Proudly completing my Full Stack Web Development course, I've immersed myself in the dynamic world of technologies like React, Bootstrap, JQuery, and more. My true passion resides in front-end development – there's a unique joy in bringing designs to life and ensuring seamless user experiences.
@@ -53,8 +57,9 @@ const About = () => {
 </p>
 
 
-        </div>
 
+        </div>
+        
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
@@ -78,6 +83,11 @@ const About = () => {
           </div>
         </div>
       </div>
+      <img
+        src={portfolioImage}
+        alt="Portfolio"
+        className="portfolio-image-bottom"
+      />
       <Loader type="pacman" />
     </>
   )
