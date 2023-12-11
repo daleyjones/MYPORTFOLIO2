@@ -6,6 +6,37 @@
   height: 100%;
   overflow: auto;
 
+  @media screen and (max-width: 768px) {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: calc(100% - 40px);
+
+    h1.page-title {
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    .project-name {
+      margin: 20px;
+    }
+
+    .slick-slider {
+      width: 80%;
+      margin: 0 auto;
+
+      .slick-prev,
+      .slick-next {
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+
+    .image-box {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+
   .slick-slider {
     position: relative;
     width: 60%;
@@ -13,42 +44,39 @@
 
     .slick-prev,
     .slick-next {
-      
-        border: none;
-        border-radius: 50%;
-     
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        z-index: 2;
-        transition: background-color 0.3s;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 2;
+      transition: background-color 0.3s;
 
-        &:hover {
-            background-color: #ffd700;
-        }
+      &:hover {
+        background-color: #ffd700;
+      }
     }
 
     .slick-prev::before,
     .slick-next::before {
-        content: '\2190'; /* Left arrow Unicode character */
+      content: '\2190'; /* Left arrow Unicode character */
     }
 
     .slick-next::before {
-        content: '\2192'; /* Right arrow Unicode character */
+      content: '\2192'; /* Right arrow Unicode character */
     }
 
     .slick-prev {
-        left: 0;
-        margin-left: -180px; /* Adjust as needed */
+      left: 0;
+      margin-left: -180px; /* Adjust as needed */
     }
 
     .slick-next {
-        right: 0;
-        margin-right: -130px; /* Adjust as needed */
+      right: 0;
+      margin-right: -130px; /* Adjust as needed */
     }
-}
-
+  }
 
   
   
