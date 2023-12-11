@@ -100,3 +100,12 @@
     transform: rotateX(90deg);
   }
 }
+
+  @media (max-width: 768px) {
+    .portfolio-image-bottom {
+      left: 50%;
+      transform: translateX(-50%);
+      max-width: 55%; /* Adjust max-width for smaller screens */
+      margin-bottom: 530px; /* Add some top margin to create space between image and paragraphs */
+    }
+  }
